@@ -12,5 +12,10 @@ Rails.application.routes.draw do
 
   get "/ports" => "ports#index"
   get "/vessels" => "vessels#index"
+
   get "/bookings" => "bookings#index"
+  get "/bookings/:id" => "bookings#show"
+  post "/bookings" => "bookings#create"
+  patch "/bookings/:id" => "bookings#update"
+  delete "/bookings/:id" => "bookings#destroy"
 end
