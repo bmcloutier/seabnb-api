@@ -12,4 +12,5 @@ Rails.application.routes.draw do
 
   get "/ports" => "ports#index"
   get "/vessels" => "vessels#index"
+  get "/bookings" => "bookings#index"
 end

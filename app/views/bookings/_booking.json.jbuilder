@@ -1,0 +1,9 @@
+json.id booking.id
+json.user_id booking.user_id
+json.vessel booking.vessel
+json.port_start booking.start
+json.port_end booking.end
+json.start_date booking.start_date
+json.end_date booking.end_date
+json.created_at booking.created_at
+json.updated_at booking.updated_at
