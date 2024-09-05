@@ -1,0 +1,12 @@
+json.id vessel.id
+json.name vessel.name
+json.length vessel.length
+json.propulsion vessel.propulsion
+json.max_distance vessel.max_distance
+json.daily_distance vessel.daily_distance
+json.daily_price vessel.daily_price
+json.amenities vessel.amenities
+json.image_url vessel.image_url
+json.port_id vessel.port_id
+json.created_at vessel.created_at
+json.updated_at vessel.updated_at

@@ -9,4 +9,7 @@ Rails.application.routes.draw do
   # root "posts#index"
   post "/sessions" => "sessions#create"
   post "/users" => "users#create"
+
+  get "/ports" => "ports#index"
+  get "/vessels" => "vessels#index"
 end
