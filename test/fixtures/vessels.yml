@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  length: 1
+  propulsion: MyString
+  max_distance: 1
+  daily_distance: 1
+  daily_price: 9.99
+  amenities: MyString
+  image_url: MyString
+  port_id: 1
+
+two:
+  name: MyString
+  length: 1
+  propulsion: MyString
+  max_distance: 1
+  daily_distance: 1
+  daily_price: 9.99
+  amenities: MyString
+  image_url: MyString
+  port_id: 1
