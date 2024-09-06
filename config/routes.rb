@@ -11,6 +11,7 @@ Rails.application.routes.draw do
   post "/users" => "users#create"
 
   get "/ports" => "ports#index"
+  get "/ports/:id" => "ports#show"
   get "/vessels" => "vessels#index"
 
   get "/bookings" => "bookings#index"
