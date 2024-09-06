@@ -12,14 +12,17 @@ User.create(first_name: "Test", last_name: "User", email: "test@example.com", ph
 User.create(first_name: "Brian", last_name: "Cloutier", email: "brian@example.com", phone_number: "123-456-7890", password: "password")
 
 Port.create(address: "123 Main St", city: "New York", country: "United States", latitude: 40.730610, longitude: -73.935242, image_url: "test.jpg")
+Port.create(address: "234 Maple Ave", city: "Boston", country: "United States", latitude: 42.36026, longitude: -71.05728, image_url: "test.jpg")
 Port.create(address: "456 Second Ave", city: "Savannah", country: "United States", latitude: 32.076176, longitude: -81.088371, image_url: "test.jpg")
+Port.create(address: "22 Jump St", city: "Lisbon", country: "Portugal", latitude: 38.70784, longitude: -9.13889, image_url: "test.jpg")
+Port.create(address: "5566 Desert Ave", city: "Casablanca", country: "Morocco", latitude: 33.57375, longitude: -7.59974, image_url: "test.jpg")
 Port.create(address: "789 Third Pl", city: "Montego Bay", country: "Jamaica", latitude: 18.46887, longitude: -77.92166, image_url: "test.jpg")
 
-Vessel.create(name: "Alpha", length: 150, propulsion: "Deisel", max_distance: 3000, daily_distance: 300, daily_price: 149.99, amenities: "Pool", image_url: "test.jpg", port_id: 1)
-Vessel.create(name: "Beta", length: 100, propulsion: "Deisel/Sail", max_distance: 2800, daily_distance: 300, daily_price: 129.99, amenities: "Ballroom", image_url: "test.jpg", port_id: 2)
-Vessel.create(name: "Gamma", length: 75, propulsion: "Deisel/Sail", max_distance: 1500, daily_distance: 250, daily_price: 109.99, amenities: "Life vests", image_url: "test.jpg", port_id: 3)
-Vessel.create(name: "Delta", length: 50, propulsion: "Deisel/Sail", max_distance: 900, daily_distance: 150, daily_price: 89.99, amenities: "Fishing gear", image_url: "test.jpg", port_id: 1)
-Vessel.create(name: "Epsilon", length: 35, propulsion: "Sail", max_distance: 400, daily_distance: 100, daily_price: 49.99, amenities: "Nice captain", image_url: "test.jpg", port_id: 1)
+Vessel.create(name: "Alpha", length: 150, propulsion: "Deisel", max_distance: 3000, daily_distance: 300, daily_price: 149.99, amenities: "Pool", image_url: "https://sysyachtsales.com/wp-content/uploads/2018/07/Used-Yachts-For-Sale-From-161-To-200-Feet.jpg", port_id: 1)
+Vessel.create(name: "Beta", length: 100, propulsion: "Deisel", max_distance: 2800, daily_distance: 300, daily_price: 129.99, amenities: "Ballroom", image_url: "https://www.yachtsinternational.com/.image/t_share/MTQ2NDM4NTc5ODk2NzIyOTI1/hatteras100rph-profile.jpg", port_id: 2)
+Vessel.create(name: "Gamma", length: 75, propulsion: "Deisel", max_distance: 1500, daily_distance: 250, daily_price: 109.99, amenities: "Life vests", image_url: "https://www.yachtopolis.com/media/79276/5_FULL.jpg", port_id: 3)
+Vessel.create(name: "Delta", length: 50, propulsion: "Deisel/Sail", max_distance: 900, daily_distance: 150, daily_price: 89.99, amenities: "Fishing gear", image_url: "https://bettersailing.com/wp-content/uploads/2021/02/Best-Sailboats-Over-60-Feet-960x540.jpg", port_id: 1)
+Vessel.create(name: "Epsilon", length: 35, propulsion: "Sail", max_distance: 400, daily_distance: 100, daily_price: 49.99, amenities: "Nice captain", image_url: "https://www.sailboat-cruising.com/images/seahawk-cruising-yachts-moo.jpg", port_id: 1)
 
 Booking.create(user_id: 1, vessel_id: 1, port_start_id: 1, port_end_id: 2, start_date: "01/01/2025")
 Booking.create(user_id: 1, vessel_id: 2, port_start_id: 2, port_end_id: 3, start_date: "01/15/2025")
