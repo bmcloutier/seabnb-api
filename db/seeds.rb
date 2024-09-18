@@ -23,7 +23,7 @@ Port.create(address: "22 Jump St", city: "Galway", country: "Ireland", latitude:
 Port.create(address: "22 Jump St", city: "Bordeaux", country: "France", latitude: 44.83807, longitude: -0.57777, image_url: "test.jpg", currency: "EUR")
 Port.create(address: "22 Jump St", city: "Lisbon", country: "Portugal", latitude: 38.70784, longitude: -9.13889, image_url: "test.jpg", currency: "EUR")
 Port.create(address: "22 Jump St", city: "Casablanca", country: "Morocco", latitude: 33.57375, longitude: -7.59974, image_url: "test.jpg", currency: "MAD")
-Port.create(address: "22 Jump St", city: "Dakar", country: "Senegal", latitude: 14.72117, longitude: -17.44774, image_url: "test.jpg", currency: "XFO")
+Port.create(address: "22 Jump St", city: "Dakar", country: "Senegal", latitude: 14.72117, longitude: -17.44774, image_url: "test.jpg", currency: "XOF")
 Port.create(address: "22 Jump St", city: "Cape Town", country: "South Africa", latitude: -33.92202, longitude: 18.41958, image_url: "test.jpg", currency: "ZAR")
 
 Vessel.create(name: "Big Kahuna", length: 100, propulsion: "Deisel", max_distance: 2800, daily_distance: 300, daily_price: 129.99, amenities: "Ballroom", image_url: "https://www.yachtsinternational.com/.image/t_share/MTQ2NDM4NTc5ODk2NzIyOTI1/hatteras100rph-profile.jpg", port_id: 1)
