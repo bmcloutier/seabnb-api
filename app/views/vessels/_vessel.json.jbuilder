@@ -8,5 +8,8 @@ json.daily_price vessel.daily_price
 json.amenities vessel.amenities
 json.image_url vessel.image_url
 json.port_id vessel.port_id
+json.distance vessel.distance(@end_port)
+json.duration vessel.duration(@end_port)
+json.price vessel.price(@end_port)
 json.created_at vessel.created_at
 json.updated_at vessel.updated_at
