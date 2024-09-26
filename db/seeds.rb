@@ -44,6 +44,6 @@ Vessel.create(name: "Scrappy Doo", length: 45, propulsion: "Deisel/Sail", max_di
 Vessel.create(name: "Epsilon", length: 140, propulsion: "Deisle/Sail", max_distance: 3000, daily_distance: 300, daily_price: 139.99, amenities: "Life boats", image_url: "https://www.yachtsinternational.com/.image/t_share/MTc2MTQxOTEzODk4OTUyMTA1/03_oceanic-140_3-4.jpg", port_id: 11)
 Vessel.create(name: "Gnarly Gnightengale", length: 30, propulsion: "Sail", max_distance: 400, daily_distance: 100, daily_price: 39.99, amenities: "Surly captain", image_url: "https://waterbornemag.com/wp-content/uploads/2018/08/Cape-Dory-30.jpg", port_id: 12)
 
-Booking.create(user_id: 1, vessel_id: 2, port_start_id: 1, port_end_id: 9, start_date: "2025-01-01")
-Booking.create(user_id: 1, vessel_id: 6, port_start_id: 2, port_end_id: 7, start_date: "2025-03-15")
-Booking.create(user_id: 2, vessel_id: 8, port_start_id: 3, port_end_id: 10, start_date: "2025-02-25")
+# Booking.create(user_id: 1, vessel_id: 2, port_start_id: 1, port_end_id: 9, start_date: "2025-01-01")
+# Booking.create(user_id: 1, vessel_id: 6, port_start_id: 2, port_end_id: 7, start_date: "2025-03-15")
+# Booking.create(user_id: 2, vessel_id: 8, port_start_id: 3, port_end_id: 10, start_date: "2025-02-25")

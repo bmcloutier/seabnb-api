@@ -5,5 +5,6 @@ json.port_start booking.start
 json.port_end booking.end
 json.start_date booking.start_date
 json.end_date booking.end_date
+json.map_url rails_blob_path(booking.map)
 json.created_at booking.created_at
 json.updated_at booking.updated_at
