@@ -6,6 +6,5 @@ json.latitude port.latitude
 json.longitude port.longitude
 json.image_url port.image_url
 json.currency port.currency
-json.vessels port.vessels
 json.created_at port.created_at
 json.updated_at port.updated_at
